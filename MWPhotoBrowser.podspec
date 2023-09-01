@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
     'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png'
   ]
 
-  s.homepage = 'https://github.com/EvoIos/MWPhotoBrowser'
-  s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
+  s.homepage = 'https://github.com/xingchens/MWPhotoBrowser'
+  s.author = { 'Michael Waterfall' => '1968328162@qq.com' }
   s.social_media_url = 'https://twitter.com/mwaterfall'
 
   s.source = {
-    :git => 'https://github.com/EvoIos/MWPhotoBrowser.git',
+    :git => 'https://github.com/xingchens/MWPhotoBrowser.git',
     :tag => '2.1.2-0.1.1'
   }
   s.platform = :ios, '7.0'
@@ -37,10 +37,10 @@ Pod::Spec.new do |s|
   s.frameworks = 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MediaPlayer'
   s.weak_frameworks = 'Photos'
 
-  s.dependency 'MBProgressHUD', '~> 1.0'
+  s.dependency 'MBProgressHUD', '~> 0.9.2'
   s.dependency 'DACircularProgress', '~> 2.3.1'
 
   # SDWebImage
-  s.dependency 'SDWebImage', '~> 4.0.0'
+  s.dependency 'SDWebImage', '~> 5.0.0'
 
 end
